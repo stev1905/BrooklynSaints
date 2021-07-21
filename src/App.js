@@ -1,5 +1,6 @@
 import React from "react";
 import VideoHeader from './VideoHeader/VideoHeader';
+import AboutUs from './AboutUs/AboutUs';
 
 class App extends React.Component {
 
@@ -20,7 +21,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <VideoHeader playing={this.state.ready} />
+      <div>
+        <VideoHeader playing={this.state.ready} />
+        <AboutUs />
+      </div>
     )
   }
 }

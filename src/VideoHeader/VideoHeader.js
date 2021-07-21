@@ -9,10 +9,9 @@ const VideoHeader = (props) => {
             <ReactPlayer
                 url="https://player.vimeo.com/video/514429117?title=0&byline=0&portrait=0"
                 width="100vw"
-                height="100vh"
+                height="75vh"
                 playing
                 muted
-                volume="0.8"
             />
         </div>
     )
