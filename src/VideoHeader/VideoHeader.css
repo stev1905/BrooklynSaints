@@ -1,5 +1,22 @@
 body {
     background-color: black;
-    height: 80%;
     width: 100%;
+    height: 100vh;
+}
+
+.about-big-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 52px;
+    background-color: white;
+    color: #CE7A2D;
+}
+
+.about-small-title {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-size: 44px;
+    padding-bottom: 40px;
 }

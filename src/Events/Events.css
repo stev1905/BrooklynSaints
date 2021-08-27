@@ -1,0 +1,35 @@
+.events-section {
+    max-height: 1150px;
+    padding: 25px 15px 45px 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.events-header {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.events-footer-style-one{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.events-footer-style-two {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    color: black;
+}
+
+.events-footer-style-details {
+    padding-left: 7px;
+    color: #CE7A2D;
+}

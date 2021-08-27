@@ -4,14 +4,6 @@ import './AboutUs.css'
 const AboutUs = () => {
     return (
         <div className="about-section">
-            <div className="about-title">
-                <div className="about-big-title">
-                    Brooklyn Saints
-                </div>
-                <div className="about-small-title">
-                    Youth Football Organization
-                </div>
-            </div>
             <div className="our-story">
                 Our Story
             </div> 

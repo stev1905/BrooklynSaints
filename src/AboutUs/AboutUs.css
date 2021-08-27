@@ -14,19 +14,6 @@
     font-weight: 600;
 }
 
-.about-big-title {
-    display: flex;
-    justify-content: center;
-    font-size: 52px;
-
-    color: #CE7A2D;
-}
-
-.about-small-title {
-    font-size: 44px;
-    padding-bottom: 40px;
-}
-
 .our-story {
     padding-top: 25px;
     padding-bottom: 5px;
@@ -82,6 +69,7 @@
     width: 290px;
     padding: 40px;
     background: #2D2D2D;
+    border-radius: 10px;
 }
 
 .league-card-title {
