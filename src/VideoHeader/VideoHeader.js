@@ -3,6 +3,8 @@ import ReactPlayer from "react-player";
 
 import './VideoHeader.css';
 
+const volume = .2;
+
 class VideoHeader extends React.Component {
     
     render() {
@@ -11,9 +13,9 @@ class VideoHeader extends React.Component {
                 <ReactPlayer
                     className="video"
                     ref={player => { this.player = player }}
-                    url="https://player.vimeo.com/video/514429117?title=0&byline=0&portrait=0"
-                    muted="false"
-                    volume=".2"
+                    url="https://player.vimeo.com/video/514429117?title=0&byline=0&portrait=0&controls=1"
+                    muted
+                    volume={volume}
                     width="100vw"
                     height="80vh"
                     playing
