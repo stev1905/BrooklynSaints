@@ -1,3 +1,4 @@
+
 p {
     margin: 0px 0px 5px 0px;
     font-style: normal;
@@ -55,8 +56,8 @@ hr {
 }
 
 .footer-container {
-    height: 400px;
-    background: url('http://brooklynsaintsyouthorganization.com/wp-content/uploads/2020/10/IMG_0654.jpg');
+    height: 500px;
+    background: url('../assets/IMG_0654.jpeg');
     background-repeat:no-repeat;
     background-size:cover;
     background-position:70% 40%;
@@ -65,7 +66,7 @@ hr {
 .overlay {
     position: absolute;
     z-index: 5;
-    height: 400px;
+    height: 500px;
     width: 100%;
     background-color: black;
     opacity: .3;

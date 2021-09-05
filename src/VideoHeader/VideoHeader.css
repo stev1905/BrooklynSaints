@@ -24,6 +24,7 @@ body {
 @media screen and (max-width: 999px) {
     .video {
         height: 50vh !important;
+        width: unset !important;
     }
     .about-big-title {
         padding: 20px;

@@ -1,35 +1,41 @@
 import React from "react";
 import Slider from "react-slick";
+import imageOne from '../assets/img_0631-6727-ver-9.jpeg';
+import imageTwo from '../assets/img_0632-5907-ver-9.jpeg';
+import imageThree from '../assets/img_0633-6681-ver-9.jpeg';
+import imageFour from '../assets/IMG_0054b.jpeg';
+import imageFive from '../assets/img_0630-4062-ver-9.jpeg'
+
 import './EventCarousel.css'
 
 const photos = [
   {
     name: 'photo1',
-    url:'http://brooklynsaintsyouthorganization.com/wp-content/uploads/2020/09/img_0631-6727-ver-9.jpg',
+    url: imageOne,
     eventDate:'10/02',
     eventDetails:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, fermentum fermentum pellentesque suspendisse sed cursus.'
   },
   {
     name: 'photo2',
-    url:'http://brooklynsaintsyouthorganization.com/wp-content/uploads/2020/09/img_0632-5907-ver-9.jpg',
+    url: imageTwo,
     eventDate:'10/17',
     eventDetails:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, fermentum fermentum pellentesque suspendisse sed cursus.'
   },
   {
     name: 'photo3',
-    url:'http://brooklynsaintsyouthorganization.com/wp-content/uploads/2020/09/img_0633-6681-ver-9.jpg',
+    url: imageThree,
     eventDate:'10/31',
     eventDetails:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, fermentum fermentum pellentesque suspendisse sed cursus.'
   },
   {
     name: 'photo4',
-    url:'http://brooklynsaintsyouthorganization.com/wp-content/uploads/2020/10/IMG_0054b.jpg',
+    url: imageFour,
     eventDate:'11/13',
     eventDetails:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, fermentum fermentum pellentesque suspendisse sed cursus.'
   },
   {
     name: 'photo5',
-    url:'http://brooklynsaintsyouthorganization.com/wp-content/uploads/2020/09/img_0630-4062-ver-9.jpg',
+    url: imageFive,
     eventDate:'11/27',
     eventDetails:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, fermentum fermentum pellentesque suspendisse sed cursus.'
   },
