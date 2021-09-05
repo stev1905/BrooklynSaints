@@ -2,6 +2,7 @@ import React from "react";
 import VideoHeader from './VideoHeader/VideoHeader';
 import AboutUs from './AboutUs/AboutUs';
 import Events from './Events/Events';
+import Footer from "./Footer/Footer";
 
 class App extends React.Component {
 
@@ -26,6 +27,7 @@ class App extends React.Component {
         <VideoHeader playing={this.state.ready} />
         <AboutUs />
         <Events />
+        <Footer />
       </div>
     )
   }

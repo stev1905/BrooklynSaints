@@ -68,7 +68,7 @@ export default function SimpleSlider() {
           idx%2 === 0 
             ? (<div className="item-wrap">
                 <div className="overlay-odd"></div>
-                <img src={photo.url} alt={photo.name}/>t
+                <img src={photo.url} alt={photo.name}/>
                 <div className="event-date">{photo.eventDate}</div>
                 <div className="event-info">{photo.eventDetails}</div>
             </div>)

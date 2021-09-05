@@ -1,0 +1,104 @@
+p {
+    margin: 0px 0px 5px 0px;
+    font-style: normal;
+}
+
+a {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+  }
+
+li {
+    display: inline;
+    padding-right: 15px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+hr {
+    color: white;
+    width: 92%;
+    height: 1px;
+}
+
+.footer-section {
+    height: 600px;
+    padding: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.subfooter {
+    display: flex;
+    align-items: center; 
+    background: #2D2D2D;
+    flex-direction: column;
+    padding: 25px;
+    height: 150px;
+}
+
+.address {
+    font-style: normal;
+}
+
+.subfooter-container {
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+    height: 400px;
+    background: url('http://brooklynsaintsyouthorganization.com/wp-content/uploads/2020/10/IMG_0654.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:70% 40%;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 5;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    opacity: .3;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 15px 0px;
+
+}
+
+.footer-seal {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    padding-top: 10px;
+}
+
+i.fa {
+    color: white;
+    font-size: 18px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+}
+
+  

@@ -1,5 +1,5 @@
 .slick-list {
-    min-width: 1155px;
+    min-width: px;
 }
 
 .slick-slider.slick-initialized {
@@ -8,6 +8,7 @@
     padding-top: 25px;
     padding-bottom: 35px;
     width: 1200px;
+    height: 400px;
 }
 .slick-track {
     display: flex;
