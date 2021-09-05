@@ -1,5 +1,4 @@
 .about-section {
-    max-height: 1150px;
     padding: 25px 15px 45px 15px;
     background-color: white;
     display: flex;
@@ -54,6 +53,7 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .league-cards {
@@ -110,4 +110,51 @@
     cursor: pointer;
     border-radius: 20px;
 
+}
+
+@media screen and (max-width: 999px) {
+
+    .about-section {
+        padding: 15px;
+    }
+
+    .about-text {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: auto;
+        font-size: 14px;
+    }
+    .our-story, .our-team {
+        padding-top: 5px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .button {
+        width: 110px;
+        height: 30px;
+    }
+
+    .league-card-title {
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
+
+    .league-cards {
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .league-card {
+        height: 340px;
+        width: 240px;
+        padding: 15px;
+        margin-bottom: 40px;
+    }
+    .league-card-text {
+        line-height: 1.4;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
 }

@@ -7,8 +7,9 @@ class VideoHeader extends React.Component {
     
     render() {
         return (
-            <div>
+            <div className="videoHeader-conatainer">
                 <ReactPlayer
+                    className="video"
                     ref={player => { this.player = player }}
                     url="https://player.vimeo.com/video/514429117?title=0&byline=0&portrait=0"
                     width="100vw"

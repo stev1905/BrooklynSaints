@@ -86,7 +86,7 @@ hr {
     padding-top: 10px;
 }
 
-i.fa {
+.social-media-links > i.fa {
     color: white;
     font-size: 18px;
     padding-right: 25px;
@@ -101,4 +101,65 @@ a[href^="tel"]::before {
     content: "📞 ";
 }
 
+@media screen and (max-width: 999px) {
+.footer-container {
+    margin: 0;
+}
+
+  .subfooter {
+    padding: 8px;
+    font-size: 10px;
+    height: 125px;
+  }
+
+  .subfooter-container {
+      height: 70px;
+  }
+
+  ul {
+      font-size: 8px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  li {
+      line-height: 2.25;
+  }
+
+  .site-author {
+      width: 230px;
+  }
+
+  address {
+      width: 140px;
+  }
+
+  .footer-nav {
+      align-items: flex-start; 
+      width: 250px;
+
+  }
+
+  .social-media-links > i.fa {
+    color: white;
+    font-size: 12px;
+    padding-right: 20px;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    img {
+        margin: 0;
+    }
+
+    .footer-section {
+        height: unset;
+    }
+
+    .footer-seal {
+        align-items: center;
+    }
+}
   

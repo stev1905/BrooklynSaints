@@ -20,3 +20,17 @@ body {
     font-size: 44px;
     padding-bottom: 40px;
 }
+
+@media screen and (max-width: 999px) {
+    .video {
+        height: 50vh !important;
+    }
+    .about-big-title {
+        padding: 20px;
+        font-size: 38px;
+    }
+    .about-small-title {
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
+}
