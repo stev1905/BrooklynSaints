@@ -7,14 +7,15 @@ class VideoHeader extends React.Component {
     
     render() {
         return (
-            <div className="videoHeader-conatainer">
+            <div className="videoHeader-container">
                 <ReactPlayer
                     className="video"
                     ref={player => { this.player = player }}
                     url="https://player.vimeo.com/video/514429117?title=0&byline=0&portrait=0"
+                    muted="false"
+                    volume=".2"
                     width="100vw"
                     height="80vh"
-                    muted
                     playing
                     onReady={() => this.player.seekTo(19)}
                 />

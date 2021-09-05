@@ -3,6 +3,7 @@ import VideoHeader from './VideoHeader/VideoHeader';
 import AboutUs from './AboutUs/AboutUs';
 import Events from './Events/Events';
 import Footer from "./Footer/Footer";
+import NavigationBar from "./NavigationBar/NavigationBar";
 
 class App extends React.Component {
 
@@ -24,6 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <NavigationBar />
         <VideoHeader playing={this.state.ready} />
         <AboutUs />
         <Events />

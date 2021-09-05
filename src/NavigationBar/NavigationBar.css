@@ -1,0 +1,126 @@
+
+ .navbar {
+   position: fixed;
+   height: 52px;
+   top: 0;
+   left: 0;
+   right: 0;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   transition: .4s;
+   z-index: 99999;
+   visibility: hidden;
+}
+
+.scroll {    
+    left: 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    z-index: 1030;
+    padding: 3px 0;
+    color: #fff;
+    background: #343a40;
+    padding: 0;
+    opacity: .9;
+    visibility: visible;
+  }
+
+div.m-auto.navbar-nav {
+    width: 50%;
+     display: flex;
+     justify-content: space-between;
+     margin: unset !important;
+ }
+
+ div.m-auto.navbar-nav > img {
+     padding-left: 0px;
+ }
+ 
+  a.mr-auto.navbar-brand,
+  .navbar-light .navbar-nav .nav-link {
+     color: #fff;
+     font-weight: 600;
+  }
+ 
+  a.span.nav-link {
+    color: #fff;
+    padding-top: 10px;
+  }
+
+
+ .navbar.unhide {
+    display: block;
+  }
+
+  .navbar-brand > img {
+      z-index: 2;
+    width: 190px;
+    height: 120px;
+    background-color: unset;
+  }
+
+  .hideLogo {
+      visibility: hidden;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    color: #fff;
+    margin-right: 10px;
+    display: none;
+ }
+
+ a.span {
+     color: white;
+     display: flex;
+ }
+
+  @media screen and (max-width: 999px) {
+    
+    img {
+        display: none;
+    }
+
+     .topnav.responsive {position: relative;}
+     .topnav.responsive .icon {
+       position: absolute;
+       right: 0;
+       top: 0;
+     }
+     .topnav.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+     }
+     .navbar.navbar-expand-lg.navbar-light{
+        background-color: #343a40;
+        display: flex;
+        justify-content: flex-end;
+     }
+     .navbar {
+        padding: 0px;
+        opacity: .9;
+     }
+     
+     div.m-auto.navbar-nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #343a40;
+     }
+     
+     .navbar-toggler {
+         display: unset;
+        position: absolute;
+        color: #fff;
+        margin-right: 10px;
+     }
+}
+
+a.nav-link.active {
+    color: #d47800!important;
+}

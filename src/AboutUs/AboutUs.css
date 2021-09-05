@@ -44,7 +44,7 @@
     border: none;
     color: white;
     font-weight: 600;
-    width: 110px;
+    width: 160px;
     height: 50px;
     padding: 5px 20px;
     text-align: center;
@@ -64,8 +64,8 @@
 }
 
 .league-card {
-    height: 350px;
-    width: 290px;
+    height: 450px;
+    width: 370px;
     padding: 40px;
     background: #2D2D2D;
     border-radius: 10px;
@@ -146,7 +146,7 @@
     }
 
     .league-card {
-        height: 340px;
+        height: 440px;
         width: 240px;
         padding: 15px;
         margin-bottom: 40px;
