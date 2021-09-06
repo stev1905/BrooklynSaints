@@ -19,6 +19,7 @@ class VideoHeader extends React.Component {
                     width="100vw"
                     height="80vh"
                     playing
+                    playsinline
                     onReady={() => this.player.seekTo(19)}
                 />
                 <div className="about-title">
