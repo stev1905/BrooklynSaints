@@ -15,6 +15,7 @@ class VideoHeader extends React.Component {
                     ref={player => { this.player = player }}
                     url="https://player.vimeo.com/video/514429117?title=0&byline=0&portrait=0?background=1" 
                     muted
+                    loop
                     volume={volume}
                     width="100vw"
                     height="80vh"
