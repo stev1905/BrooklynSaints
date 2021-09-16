@@ -57,9 +57,13 @@ div.m-auto.navbar-nav {
 
   .navbar-brand > img {
       z-index: 2;
-    width: 190px;
-    height: 120px;
+    width: 280px;
+    height: 150px;
     background-color: unset;
+  }
+
+  .navbar-brand {
+    padding-top: 6rem;
   }
 
   .hideLogo {
@@ -104,6 +108,10 @@ div.m-auto.navbar-nav {
         padding: 0px;
         opacity: .9;
      }
+
+     .navbar-brand {
+      padding-top: 2.5rem;
+    }
      
      div.m-auto.navbar-nav {
         width: 100%;
@@ -118,6 +126,10 @@ div.m-auto.navbar-nav {
         position: absolute;
         color: #fff;
         margin-right: 10px;
+     }
+
+     .navbar-toggler-icon {
+       background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>") !important;
      }
 }
 

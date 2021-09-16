@@ -31,7 +31,7 @@ const Footer = () => {
                 <hr></hr>
                 <div className="footer-seal">
                     <div className="site-author">
-                    Copyright © Brookyln Saints Youth Organization | Designed by JERRYCKA
+                    Copyright © Brookyln Saints Youth Organization | Designed by EMPIRE DIGITAL
                     </div>
                     <div className="social-media-links">
                         <i className="fa fa-facebook-f"></i>

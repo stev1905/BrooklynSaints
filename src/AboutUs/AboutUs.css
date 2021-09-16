@@ -27,6 +27,7 @@
 }
 
 .about-text {
+    text-align: center;
     width: 700px;
     font-size: 18px;
     font-weight: 400;
@@ -81,6 +82,7 @@
 }
 
 .league-card-text {
+    text-align: center;
     color: #868FA1;
     line-height: 1.6;
 }
